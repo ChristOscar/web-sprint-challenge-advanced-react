@@ -25,9 +25,9 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 You will also need to build the two tests in the `CheckoutForm.test.js` file and make sure they are testing what the test title says they are.
 
 ## Project Setup
-* [ ] Run npm install to install your dependencies.
-* [ ] Run npm start to run your frontend and backend code automatically.
-* [ ] Note your backend code will run automatically when your run npm start. There is no need to seperately run a server.js file and no means to test the server through postman or the browser. Feel free to ignore any messages related to MSW or mock service workers.
+* [x] Run npm install to install your dependencies.
+* [x] Run npm start to run your frontend and backend code automatically.
+* [x] Note your backend code will run automatically when your run npm start. There is no need to seperately run a server.js file and no means to test the server through postman or the browser. Feel free to ignore any messages related to MSW or mock service workers.
 
 ## Project Instructions
 
@@ -117,9 +117,14 @@ test("displays plants in cart", () => {
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Add your answers below.
 
 1. What are the main differences between a class-based and a functional component?
+ - function component is a stateless component that just accepts data and displays them in some form whereas stateful is a class component tht implements logic and state which requires the use of React.
 
 2. When does a componentWillMount function be called? What about a componentDidUpdate?
+ - componentWillMount is the first stage for change of state. componentDidUpdate is the is the secound stage of state change just befoer the component is updated. 
 
 3. Define stateful logic.
-
+ - It is a behavior created with the use of one or more hooks
 4. What are the three step of creating a successful test? What is done in each phase? 
+ -  Arrange: all necessary preconditions and inputs basically setting up and preparing all of the testing objects and prerequisites.
+ - Act: Test basically it performs the actual work of the test.
+ - Assert: Have the expected results, which in turns validates the correct response
